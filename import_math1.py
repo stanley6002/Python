@@ -143,7 +143,7 @@ class CHyAudio:
 
     def setVolume(self):
         while True:
-        #while(self.running):
+        
             element = raw_input("Enter command: ")
            
             if element.lower() == '+':
@@ -171,9 +171,7 @@ class CHyAudio:
               self.lowpass=True
             else : 
                 self.loopback = True
-              #if x.lower() == 'e':
-               #self.running = False
-               #break
+              
 
     def setVol(self):
         
