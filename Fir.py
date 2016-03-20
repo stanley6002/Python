@@ -1,3 +1,4 @@
+# add submodule first#
 import pyaudio
 import wave
 import numpy as np
